@@ -1,49 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Interactive rating component</title>
 
-  <!-- Rating state start -->
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    < </head>
+        <>
+            <div class="box-container"></div>
 
-  How did we do?
+            <div class="img-container">
+                <img src="images/icon-star.svg" class="star-icon"></div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+            <h2>How did we do?</h2>
+            <p> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="rating-btn-container"></div>
 
-  1 2 3 4 5
+            <button class="rating-btn" id="1" aria-selected="false" role="button">1</button>
+            <button class="rating-btn" id="2" aria-selected="false" role="button">2</button>
+            <button class="rating-btn" id="3" aria-selected="false" role="button">3</button>
+            <button class="rating-btn" id="4" aria-selected="false" role="button">4</button>
+            <button class="rating-btn" id="5" aria-selected="false" role="button">5</button>
 
-  Submit
+            <button class="submit-btn" id="submit">Submit</button>
 
-  <!-- Rating state end -->
+            <div class="submit"></div>
 
-  <!-- Thank you state start -->
+            <img src="image/illustration-thank-you.svg"></img>
 
-  You selected <!-- Add rating here --> out of 5
+            <p class="rating-result">You selected out of 5 <span id="selected-rating"></span></p>
 
-  Thank you!
+            <h2>Thank you!</h2>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+            </main>
 
-  <!-- Thank you state end -->
+            <body>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+                <!-- Rating state start -->
+
+
+                <!-- Rating state end -->
+
+                <!-- Thank you state start -->
+
+
+
+                <!-- Thank you state end -->
+
+
+                <div class="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+                </div>
+            </body>
+
 </html>
